@@ -538,11 +538,11 @@ class PlayState extends MusicBeatState
 				}
 				dadbattleSmokes = new FlxSpriteGroup(); //troll'd
 				
-				case 'green-void':
+			case 'green-void':
 			{
 				defaultCamZoom = 0.85;
-				curStage = 'put your stage here';
-				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('put your stage here'));
+				curStage = 'green-void';
+				var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('cheater'));
 				bg.antialiasing = true;
 				bg.scrollFactor.set(0.6, 0.6);
 				bg.active = true;
