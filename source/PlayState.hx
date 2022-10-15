@@ -3269,12 +3269,6 @@ public function addShaderToCamera(cam:String,effect:Dynamic){//STOLE FROM ANDROM
 		}
 		doDeathCheck();
 			
-			if (curSong.toLowerCase() == 'furiosity')
-			{
-				screenshader.shader.uampmul.value[0] = 0;
-				screenshader.Enabled = false;
-			}
-
 
 		if (unspawnNotes[0] != null)
 		{
